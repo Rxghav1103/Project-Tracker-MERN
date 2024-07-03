@@ -1,0 +1,210 @@
+/* styles.css */
+
+body{
+  background-color: #F1F8E8;
+  border-color:transparent;
+}
+
+
+.App {
+  text-align: center;
+  margin: 20px;
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.leftitems {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10vw;
+    /* margin-right: auto; */
+    width: 350px;
+    background: #55AD9B;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.rightitems {
+  display: flex;
+  flex-grow: 1; /* Allow the right items to grow to fill available space */
+  /* flex-wrap: wrap; */
+}
+
+.submitbutton {
+  background-color: blue;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.lists-container {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.newGoal {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.progress-circle-container {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.goal-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 3rem;
+  border-radius: 5px;
+  min-width: 200px;
+  text-align: center; /* Adjust alignment as needed */
+  /* min-height: 350px; */
+}
+
+.goal-item {
+  background-color: #95D2B3;
+  border-radius: 10px;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 10px solid;
+  border-top: solid whitesmoke;
+  border-bottom: solid whitesmoke;
+  border-right: solid #ccc;
+  max-width: 190px;
+}
+
+.goal-item h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.goal-item p {
+  margin: 0;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.button-container button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container button:first-child {
+  background-color: #f0ad4e;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button-container button:last-child {
+  background-color: teal;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.button-container button:hover {
+  opacity: 0.8;
+}
+
+.goal-list h2 {
+  margin-top: 0px;
+}
+
+.todo h2 {
+  background-color: #55AD9B;
+  border-radius: 5px;
+  padding: 10px;
+  color : white;
+}
+
+.inprog h2 {
+  background-color: #55AD9B;
+  border-radius: 5px;
+  padding: 10px;
+  color : white;
+}
+
+.comp h2 {
+  background-color: #55AD9B;
+  border-radius: 5px;
+  padding: 10px;
+  color : white;
+}
+
+.goal-item:hover {
+  background-color: white;
+  color: #55AD9B;
+  border-left-color: whitesmoke;
+  transition: background-color 0.3s, color 0.3s, border-left-color 0.3s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #55AD9B;
+  border-bottom: 1px solid #ccc;
+  border-radius: 15px;
+  max-width: 1300px;
+}
+
+.header-left h1 {
+  margin: 0;
+  margin-left: 10px;
+  color: white;
+}
+
+.header-right button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #95D2B3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.header-right button:hover {
+  background-color: white;
+  color: #95D2B3;
+}
+.newGoal select {
+  background-color: #95D2B3; /* Background color of the dropdown */
+  color: white; /* Text color of the dropdown */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-align: center;
+}
+
+.newgoal select:hover{
+  background-color: white;
+  color : blue;
+}
+
+.newGoal option {
+  background-color: white; /* Background color of options */
+  color: black; /* Text color of options */
+}

@@ -1,0 +1,127 @@
+/* ProjectGenerator.css */
+::placeholder{
+    color: #55AD9B;
+}
+/* Base styles for the radio buttons */
+
+.rd{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rd label{
+    margin-left: 100px;
+    padding: 20px;
+    background-color: #55AD9B;
+    border-radius: 10px;
+    color: white;
+    margin-right: 80px;
+}
+
+.rd input[type="radio"] {
+    display: none; /* Hide the default radio button */
+  }
+  
+.rd input[type="radio"] + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px; /* Adjust padding as needed */
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  /* Styles for the custom radio button */
+.rd  input[type="radio"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    border: 2px solid #ccc; /* Default border color */
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  /* Styles for the selected state */
+.rd input[type="radio"]:checked + label:before {
+    border-color: #55AD9B; /* Custom border color */
+    background-color: #55AD9B; /* Custom background color */
+  }
+  
+  /* Optional: Add some hover effects */
+.rd input[type="radio"] + label:hover:before {
+    border-color: #55AD9B; /* Custom hover border color */
+  }
+  
+.radio-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+.project-generator {
+    background-color: #55AD9B;
+    width: 30%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  .project-generator h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-generator input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  
+  .project-generator button{
+    appearance: none;
+    outline: 0;
+    background-color: #95D2B3;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+    width: 279px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 8% auto;
+}
+
+.project-generator button:hover {
+    background-color: white;
+    color: #95D2B3;
+    box-shadow: none;
+  }
+  
+.project-generator button.hovered {
+    background-color: white;
+    color: #95D2B3;
+    box-shadow: none;
+  }
+
+  
+  .project-generator p {
+    margin: 10px 0;
+    font-size:20px;
+  }
+  

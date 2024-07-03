@@ -1,0 +1,42 @@
+::placeholder{
+  color : #55AD9B;  
+}
+
+.submitbutton {
+  background-color: #95D2B3;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 7px 72px;
+  margin: 5px;
+}
+
+.submitbutton:hover {
+  background-color: #95D2B3;
+  color: #D8EFD3;
+  box-shadow: none;
+}
+
+.submitbutton.hovered {
+  background-color: #D8EFD3;
+  color: #95D2B3;
+}
+
+.taskname {
+  border-radius: 7px;
+  padding: 7px 22px 7px;
+  margin-top: 10px;
+  text-align: center;
+  border-color: transparent;
+  /*background: #95D2B3;*/
+}
+
+.taskselect {
+  border-radius: 7px;
+  padding: 7px 68px 7px;
+  margin: 11px;
+  text-align: center;
+  background-color: #95D2B3;
+  color:white;
+}

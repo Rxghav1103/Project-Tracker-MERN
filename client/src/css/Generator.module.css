@@ -1,0 +1,47 @@
+/* ProjectGenerator.css */
+.project-generator {
+    background-color: #55AD9B;
+    width: 30%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  .project-generator h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-generator input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .project-generator button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #55AD9B;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .project-generator button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .project-generator p {
+    margin: 10px 0;
+  }
+  

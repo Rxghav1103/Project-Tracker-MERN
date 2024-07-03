@@ -1,0 +1,85 @@
+.main {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #55AD9B;
+    border-bottom: 1px solid #ccc;
+    border-radius: 15px;
+    /* max-width: 1300px; */
+}
+
+.main h1 {
+  margin: 0;
+  margin-left: 10px;
+  color: white;
+}
+
+.main ul {
+  display: flex;
+  list-style: none;
+    justify-content: space-around;
+    width: 10%;
+}
+
+
+.main a{
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #95D2B3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #55AD9B;
+  border-bottom: 1px solid #ccc;
+  border-radius: 15px;
+  /* max-width: 1300px; */
+}
+
+.headerleft h1 {
+  margin: 0;
+  margin-left: 10px;
+  color: white;
+}
+
+.headerright button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #95D2B3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.headerright button:hover {
+  background-color: white;
+  color: #95D2B3;
+}
+
+.headerright a {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #95D2B3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.headerright a:hover {
+  background-color: white;
+  color: #95D2B3;
+}
